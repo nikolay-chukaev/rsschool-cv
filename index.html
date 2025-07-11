@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikolay Chukaev CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <h1>Nikolay Chukaev</h1>
+  <nav>
+    <ul>
+      <li>Email: <a href="mailto:nikolay.chukaev@outlook.com">nikolay.chukaev@outlook.com</a></li>
+      <li>GitHub: <a href="https://github.com/nikolay-chukaev" target="_blank">nikolay-chukaev</a></li>
+      <li>Discord: nikolay.chukaev_63937</li>
+    </ul>
+  </nav>
+  <img src="2025-07-01 13.26.56.jpg" alt="Photo of Nikolay Chukaev" width="200" />
+</header>
+
+<main>
+  <section>
+    <h2>About Me</h2>
+    <p>
+      Hi! My name is Nikolay. I'm just starting my journey in IT and aiming to become a front-end developer.
+      I don't have any professional experience in this yet, but I have what really matters – a strong desire to learn and grow.
+      I'm a hardworking and curious person, always ready to put in the effort to achieve results.
+      I'm planning to dedicate the upcoming year to gaining the necessary skills and finding my place in the world of web development.
+      I believe that persistence and motivation will help me overcome any challenges along the way.
+    </p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> HTML, CSS, JavaScript (beginner)</li>
+      <li><strong>Tools & Technologies:</strong> Git, GitHub, VS Code</li>
+      <li><strong>Version Control:</strong> Git (beginner)</li>
+      <li><strong>Other:</strong> Markdown</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Code Example</h2>
+    <p>Example from <a href="https://www.codewars.com/" target="_blank">Codewars</a>:</p>
+    <pre><code>
+function booleanToString(b){
+  return b.toString();
+}
+    </code></pre>
+  </section>
+
+  <section>
+    <h2>FreeCodeCamp Task</h2>
+    <p>Here is a task from <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>:</p>
+    <pre><code>
+const character = "#";
+const count = 8;
+const rows = [];
+
+function padRow(rowNumber, rowCount) {
+  return " ".repeat(rowCount - rowNumber) + character.repeat(2 * rowNumber - 1) + " ".repeat(rowCount - rowNumber);
+}
+
+let i = 1;
+while (i <= count) {
+  rows.push(padRow(i, count));
+  i++;
+}
+
+let result = "";
+
+for (const row of rows) {
+  result += row + "\n";
+}
+
+console.log(result);
+    </code></pre>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p>
+      Bachelor’s degree in Human Resource Management<br />
+      S.Y. Witte Moscow University, 2013–2017
+    </p>
+  </section>
+
+  <section>
+    <h2>English Proficiency</h2>
+    <p>Level: <strong>B1</strong></p>
+  </section>
+</main>
+<footer>
+  <p>
+    <a href="https://github.com/nikolay-chukaev" target="_blank">GitHub</a> |
+    © 2025 |
+    <a href="https://rs.school/courses/javascript-ru" target="_blank">
+      <img src="./rs-school-logo.svg" alt="RS School Logo" width="100" />
+    </a>
+  </p>
+</footer>
+
+</html>
